@@ -30,7 +30,10 @@
 			<window name="windowCraftingQueue"/>
 			<window name="windowToolsForge" />
 			<window name="windowFuel" />
-			<window name="windowForgeInput" />
+<!-- S420 Start -->
+			<!--window name="windowForgeInput" /--> <!--Stock-->
+			<window name="S420windowForgeInput" />
+<!-- S420 End -->
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
@@ -62,7 +65,10 @@
 		</window_group>
 		
 		<window_group name="looting" left_panel_valign_top="false" controller="XUiC_LootWindowGroup">
-			<window name="windowLooting"/>
+<!-- S420 Start -->
+			<!--window name="windowLooting"/--> <!--Stock-->
+			<window name="S420windowLooting"/>
+<!-- S420 End -->
 			<window name="windowNonPagingHeader" />
 		</window_group>
 		
@@ -82,7 +88,12 @@
 		</window_group>
 		
 		<window_group name="compass" actionSet="false">
-			<window name="windowCompass" />
+<!-- S420 Start -->
+			<!--window name="windowCompass" /--> <!--Stock-->
+			<window name="S420windowCompass" />
+			<window name="S420ActiveBuffsWindow" anchor="LeftBottom" /> <!-- buff timers - placed here so it disappears when compass does -->
+			<window name="S420windowQuestTracker" anchor="RightTop" /> <!-- placed here so it disappears when compass does -->
+<!-- S420 End -->
 		</window_group>
 		
 		<window_group name="toolTip" actionSet="false">
@@ -103,17 +114,28 @@
 		</window_group>
 		
 		<window_group name="toolbelt" actionSet="false">
-			<window name="windowToolbelt" anchor="CenterBottom" />
-			<window name="HUDLeftStatBars" anchor="LeftBottom" />
+<!-- S420 Start -->
+			<window name="S420XpBar" anchor="CenterBottom" />
+			<!--window name="windowToolbelt" anchor="CenterBottom" /--> <!--Stock-->
+			<window name="S420windowToolbelt" anchor="CenterBottom" />
+			<!--window name="HUDLeftStatBars" anchor="LeftBottom" /--> <!--Stock-->
+			<window name="S420HUDLeftStatBars" anchor="LeftBottom" />
+			<!--window name="S420BuffPopoutList" anchor="LeftBottom" /--> <!-- stock like buff list -->
 			<window name="HUDRightStatBars" anchor="RightBottom" />
-			<window name="windowQuestTracker" anchor="RightTop" />
+			<!--window name="windowQuestTracker" anchor="RightTop" /--> <!--Stock-->
+<!-- S420 End -->
 		</window_group>
 		
 		<window_group name="vehicle" controller="XUiC_VehicleWindowGroup">
-			<window name="windowVehicle"/>
+<!-- S420 Start -->
+			<!--window name="windowVehicle"/--> <!--Stock-->
+			<window name="S420windowVehicle"/>
 			<window name="windowNonPagingHeader" />
-			<window name="windowVehicleStats" />
-			<window name="windowVehicleStorage" />
+			<!--window name="windowVehicleStats" /--> <!--Stock-->
+			<window name="S420windowVehicleStats" />
+			<!--window name="windowVehicleStorage" /--> <!--Stock-->
+			<window name="S420windowVehicleStorage" />
+<!-- S420 End -->
 		</window_group>
 		
 		<window_group name="windowpaging" actionSet="false">
