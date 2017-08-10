@@ -77,7 +77,7 @@
 		<entity name="zombieSteveCrawlerFeral" />
 		<entity name="zombieFatCopFeral" />
 		<entity name="zombieBurnt" />
-		<entity name="animalZombieBear" />
+		<entity name="animalBear" prob="0.05" />
 		<entity name="zombieWightFeral" />
 		<entity name="zombieMaleHazmat" prob="0.1" />
 		<entity name="zombieMaleHazmat" prob="0.1" />
@@ -124,7 +124,7 @@
 		<entity name="zombieSteveCrawler" prob="0.05"/>
 		<entity name="zombieFatCop" prob="0.15"/>
 		<entity name="zombieBurnt" prob="0.07"/>
-		<entity name="animalZombieBear" prob="0.1"/>
+		<entity name="animalBear" prob="0.05" />
 		<entity name="zombieWightFeral" prob="0.1"/>
 		<entity name="zombieFatHawaiian" />
 	</entitygroup>
@@ -165,7 +165,7 @@
 		<entity name="zombieNurse" />
 		<entity name="zombieFatCop" prob="0.05"/>
 		<entity name="animalBoar" prob="0.05"/>
-		<entity name="animalZombieBear" prob="0.05"/>
+		<entity name="animalBear" prob="0.05" />
 		<entity name="zombieSteveCrawler" prob="0.1"/>
 	</entitygroup>
 
@@ -202,7 +202,7 @@
 	</entitygroup>
 
 	<entitygroup name="ZombiesCave">
-		<entity name="animalBear" prob="0.1"/>
+		<entity name="animalBear" prob="0.05" />
 		<entity name="zombieSteveCrawler" prob="0.05"/>
 		<entity name="zombieJoe" prob="0.05"/>
 		<entity name="zombieSteve" prob="0.05"/>
@@ -268,7 +268,7 @@
 	<entitygroup name="EnemyAnimalsBurntForest">
 		<entity name="invisibleAnimalEnemy" prob="6" />
 		<entity name="animalZombieVulture" />
-		<entity name="animalZombieBear" prob="0.15" />
+		<entity name="animalBear" prob="0.05" />
 	</entitygroup>
 
 	<entitygroup name="FriendlyAnimalsBurntForest">
@@ -300,14 +300,14 @@
 		<entity name="animalBoar" />
 		<entity name="animalSnake" />
 		<entity name="animalZombieVulture" />
-		<entity name="animalBear" prob="0.15" />
+		<entity name="animalBear" prob="0.05" />
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsWasteland" >
 		<entity name="animalSnake" />
 		<entity name="animalZombieVulture" />
 		<entity name="animalBoar" />
-		<entity name="animalZombieBear" prob="0.15" />
+		<entity name="animalBear" prob="0.05" />
 	</entitygroup>
 
 	<entitygroup name="ZombieDogGroup">
@@ -436,11 +436,11 @@
 
 	<entitygroup name="ZombieAnimalsGroup">
 		<entity name="animalBoar"  prob="4"/>
-		<entity name="animalZombieBear" />
+		<entity name="animalBear" prob="0.05" />
 	</entitygroup>
 
 	<entitygroup name="ZombieBearsGroup">
-		<entity name="animalZombieBear" />
+		<entity name="animalBear" prob="0.05" />
 	</entitygroup>
 
 	<entitygroup name="BanditGroup">
