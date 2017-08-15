@@ -6753,7 +6753,7 @@ Mesh files no longer used:
 		<property name="Gain_stamina" value="2"/>
 		<property name="Gain_wellness" value="0.08"/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
+		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
 </item>
@@ -6796,7 +6796,7 @@ Mesh files no longer used:
 		<property name="Gain_water" value="0"/>
 		<property name="Gain_wellness" value="0.4"/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
+		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
 </item>
@@ -6961,7 +6961,7 @@ Mesh files no longer used:
 		<property name="Gain_water" value="0"/>
 		<property name="Gain_wellness" value="0.675"/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
+		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Smell" value="smallSmell"/>
 	<property name="Group" value="Food/Cooking"/>
@@ -6983,7 +6983,7 @@ Mesh files no longer used:
 		<property name="Gain_water" value="0"/>
 		<property name="Gain_wellness" value="6"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
+		<property name="Create_item" value="emptyJar"/>
 		<property name="Buff" value="stewWarming,eatFood_78_Trigger"/>
 	</property>
 	<property name="Smell" value="exLargeSmell"/>
@@ -7076,7 +7076,7 @@ Mesh files no longer used:
 		<property name="Gain_stamina" value="0"/>
 		<property name="Gain_wellness" value="0.32"/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
+		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
 </item>
@@ -7097,7 +7097,7 @@ Mesh files no longer used:
 		<property name="Gain_water" value="0"/>
 		<property name="Gain_wellness" value="0.8"/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
+		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
 </item>
@@ -7184,7 +7184,7 @@ Mesh files no longer used:
 		<property name="Gain_wellness" value="0.5"/>
 		<property name="Sound_start" value="player_drinking"/>
 		<property name="Buff" value="stewWarming,eatFood_12_Trigger"/>
-		<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
+		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
 </item>
