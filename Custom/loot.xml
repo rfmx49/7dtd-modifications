@@ -1474,7 +1474,7 @@
 </lootcontainer>
 
 <!-- empty, storage containers the player crafts-->
-<lootcontainer id="10" count="0" size="14,10" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+<lootcontainer id="10" count="0" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
 	<item name="cobweb" count="1,2"/>
 </lootcontainer>
 
@@ -1801,7 +1801,7 @@
 </lootcontainer>
 
 <!-- minibike storage -->
-<lootcontainer id="62" count="0" size="9,11" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="baseTemplate">
+<lootcontainer id="62" count="0" size="6,6" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="baseTemplate">
 </lootcontainer>
 
 <!-- mountain man loot -->
