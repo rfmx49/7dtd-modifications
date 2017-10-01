@@ -47,7 +47,7 @@ Mesh files no longer used:
 		<property name="Sphere" value="0.2"/>
 		<property name="Sound_start" value="swoosh"/>
 		<property name="Stamina_usage" value="7"/> <!-- 10 is the break even point with maxed Athletics and Sexosaurus, standing still -->
-		<property name="DamageBonus.head" value="8"/>
+		<property name="DamageBonus.head" value="4"/>
 		<property name="DamageBonus.glass" value="1"/> <!-- These are multipliers and correspond to "damage_category" in materials.xml. -->
 		<property name="ActionExp" value="2"/>
 		<property name="ActionExpBonusMultiplier" value="10"/>
@@ -72,7 +72,7 @@ Mesh files no longer used:
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Buff" value="criticalBlunt"/>
 		<property name="Buff_chance" value="0.1"/>
-		<property name="DamageBonus.head" value="8"/>
+		<property name="DamageBonus.head" value="4"/>
 		<property name="Stamina_usage" value="3.7"/>
 	</property>
 	<property name="CritChance" value="0.10"/>
@@ -84,6 +84,7 @@ Mesh files no longer used:
 	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_RefinedPrefab"/>
 	<property name="Material" value="metal"/>
 	<property name="EconomicValue" value="100"/>
+	<property name="SellableToTrader" value="true"/>
 	<property name="RepairTools" value="scrapIron"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
@@ -91,7 +92,7 @@ Mesh files no longer used:
 		<property name="Stamina_usage" value="8"/>
 		<property name="Buff" value="criticalBlunt"/>
 		<property name="Buff_chance" value="0.2"/>
-		<property name="DamageBonus.head" value="8"/>
+		<property name="DamageBonus.head" value="4"/>
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="9,16"/>
@@ -108,12 +109,13 @@ Mesh files no longer used:
 	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_BarbedPrefab"/>
 	<property name="RepairTools" value="forgedIron"/>
 	<property name="EconomicValue" value="192"/>
+	<property name="SellableToTrader" value="true"/>
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Stamina_usage" value="6.5"/>
 		<property name="Delay" value="1.15"/>
 		<property name="Buff" value="bleeding,criticalBlunt"/>
 		<property name="Buff_chance" value="0.3,0.3"/>
-		<property name="DamageBonus.head" value="11"/>
+		<property name="DamageBonus.head" value="5"/>
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="8,19"/>
@@ -131,11 +133,12 @@ Mesh files no longer used:
 	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_SpikedPrefab"/>
 	<property name="RepairTools" value="forgedIron"/>
 	<property name="EconomicValue" value="300"/>
+	<property name="SellableToTrader" value="true"/>
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Stamina_usage" value="8.5"/>
 		<property name="Buff" value="bleeding,criticalBlunt"/>
 		<property name="Buff_chance" value="0.5,0.4"/>
-		<property name="DamageBonus.head" value="13"/>
+		<property name="DamageBonus.head" value="6"/>
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="12,30"/>
@@ -168,7 +171,7 @@ Mesh files no longer used:
 		<property name="Buff" value="criticalBlunt,stunned,sprainedLeg"/>
 		<property name="Buff_chance" value="0.5,0.3,0.3"/>
 		<property name="DamageBonus.wood" value="0.5"/>
-		<property name="DamageBonus.head" value="12"/>
+		<property name="DamageBonus.head" value="4"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="ToolCategory.Butcher" value="0" param1="10"/>
 	</property>
@@ -293,7 +296,7 @@ Mesh files no longer used:
 		<property name="Sphere" value="0.1"/>
 		<property name="Sound_start" value="swoosh"/>
 		<property name="Stamina_usage" value="4.73"/>
-		<property name="DamageBonus.head" value="8"/>
+		<property name="DamageBonus.head" value="5"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.leaves" value="25"/>
 		<property name="DamageBonus.organic" value="8"/>
@@ -330,7 +333,7 @@ Mesh files no longer used:
 		<property name="Sphere" value="0.1"/>
 		<property name="Sound_start" value="swoosh"/>
 		<property name="Stamina_usage" value="5.5"/>
-		<property name="DamageBonus.head" value="11"/>
+		<property name="DamageBonus.head" value="5"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.leaves" value="25"/>
 		<property name="DamageBonus.organic" value="10"/>
@@ -369,7 +372,7 @@ Mesh files no longer used:
 		<property name="Sound_start" value="swoosh"/>
 		<property name="Stamina_usage" value="6.51"/>
 		<property name="DamageBonus.wood" value="3"/>
-		<property name="DamageBonus.head" value="12"/>
+		<property name="DamageBonus.head" value="5"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.leaves" value="25"/>
 		<property name="DamageBonus.organic" value="3"/>
@@ -432,7 +435,7 @@ Mesh files no longer used:
 	<property name="Sound_reload" value="pistol_reload"/>
 		<property name="Particles_muzzle_fire" value="nozzleflash"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmoke"/>
-		<property name="DamageBonus.head" value="12"/>
+		<property name="DamageBonus.head" value="6"/>
 		<property name="DamageBonus.wood" value="3"/>
 		<property name="DamageBonus.earth" value="0.4"/>
 		<property name="DamageBonus.glass" value="1"/>
@@ -482,7 +485,7 @@ Mesh files no longer used:
 		<property name="Sound_reload" value="pistol_reload"/>
 		<property name="Particles_muzzle_fire" value="nozzleflash"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmoke"/>
-		<property name="DamageBonus.head" value="12"/>
+		<property name="DamageBonus.head" value="6"/>
 		<property name="DamageBonus.wood" value="3"/>
 		<property name="DamageBonus.earth" value="0.4"/>
 		<property name="DamageBonus.glass" value="1"/>
@@ -544,7 +547,7 @@ Mesh files no longer used:
 		<property name="Sound_reload" value="44magnum_reload"/>
 		<property name="Particles_muzzle_fire" value="nozzleflash"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmoke"/>
-		<property name="DamageBonus.head" value="14"/>
+		<property name="DamageBonus.head" value="4"/>
 		<property name="DamageBonus.wood" value="4"/>
 		<property name="DamageBonus.earth" value="0.2"/>
 		<property name="DamageBonus.glass" value="1"/>
@@ -600,7 +603,7 @@ Mesh files no longer used:
 		<property name="Sound_reload" value="shotgun_reload"/>
 		<property name="Particles_muzzle_fire" value="nozzleflash_shotgun"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
-		<property name="DamageBonus.head" value="10"/>
+		<property name="DamageBonus.head" value="3"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.wood" value="2"/>
 		<property name="DamageBonus.earth" value="0.2"/>
@@ -658,7 +661,7 @@ Mesh files no longer used:
 		<property name="Sound_reload" value="shotgun_reload"/>
 		<property name="Particles_muzzle_fire" value="nozzleflash_shotgun"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
-		<property name="DamageBonus.head" value="10"/>
+		<property name="DamageBonus.head" value="3"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.wood" value="2"/>
 		<property name="DamageBonus.earth" value="0.2"/>
@@ -721,7 +724,7 @@ Mesh files no longer used:
 		<property name="Horde_meter_distance" value="20"/>
 		<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
-		<property name="DamageBonus.head" value="8"/>
+		<property name="DamageBonus.head" value="4"/>
 		<property name="DamageBonus.wood" value="5"/>
 		<property name="DamageBonus.earth" value="0.2"/>
 		<property name="DamageBonus.glass" value="1"/>
@@ -782,7 +785,7 @@ Mesh files no longer used:
 		<property name="Horde_meter_distance" value="20"/>
 		<property name="Particles_muzzle_fire" value="nozzleflash_ak"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
-		<property name="DamageBonus.head" value="9"/>
+		<property name="DamageBonus.head" value="3"/>
 		<property name="DamageBonus.wood" value="5"/>
 		<property name="DamageBonus.earth" value="0.2"/>
 		<property name="DamageBonus.glass" value="1"/>
@@ -842,7 +845,7 @@ Mesh files no longer used:
 		<property name="Sound_reload" value="hunting_rifle_reload"/>
 		<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
-		<property name="DamageBonus.head" value="12"/>
+		<property name="DamageBonus.head" value="6"/>
 		<property name="DamageBonus.wood" value="5"/>
 		<property name="DamageBonus.earth" value="0.2"/>
 		<property name="DamageBonus.glass" value="1"/>
@@ -898,7 +901,7 @@ Mesh files no longer used:
 		<property name="Sound_reload" value="sniperrifle_reload"/>
 		<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
-		<property name="DamageBonus.head" value="16"/>
+		<property name="DamageBonus.head" value="9"/>
 		<property name="DamageBonus.wood" value="5"/>
 		<property name="DamageBonus.earth" value="0.2"/>
 		<property name="DamageBonus.glass" value="1"/>
@@ -996,7 +999,7 @@ Mesh files no longer used:
 		<property name="Sound_reload" value="blunderbuss_reload"/>
 		<property name="Particles_muzzle_fire" value="nozzleflash_shotgun"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
-		<property name="DamageBonus.head" value="8"/>
+		<property name="DamageBonus.head" value="3"/>
 		<property name="DamageBonus.wood" value="2.5"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.earth" value="0.2"/>
@@ -1092,7 +1095,7 @@ Mesh files no longer used:
 	</property>
 </item>
 
-<item id="77" name="handZombie02">
+<item id="77" name="handZombie02"> <!-- crawler. This hand item is automatically used (hardcoded) if a zombie turns into a crawler. Can be overridden in entityclasses. See zombieBurnt. -->
 	<property name="Extends" value="handMaster"/>
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="24"/>
@@ -1224,7 +1227,7 @@ Mesh files no longer used:
 <item id="85" name="handZombieHazMat">
 	<property name="Extends" value="handMaster"/>
 	<property name="CreativeMode" value="None"/>
-	<property name="HoldType" value="24"/>
+	<property name="HoldType" value="9"/>
 	<property class="Action0">
 		<property name="Buff" value="bleeding,infection1,stunned"/>
 		<property name="Buff_chance" value="0.04,0.25,0.5"/>
@@ -1234,7 +1237,7 @@ Mesh files no longer used:
 <item id="86" name="handZombieWorker">
 	<property name="Extends" value="handMaster"/>
 	<property name="CreativeMode" value="None"/>
-	<property name="HoldType" value="24"/>
+	<property name="HoldType" value="9"/>
 	<property class="Action0">
 		<property name="DamageBlock" value="150"/>
 	</property>
@@ -1243,7 +1246,7 @@ Mesh files no longer used:
 <item id="87" name="handZombieFootballPlayer">
 	<property name="Extends" value="handMaster"/>
 	<property name="CreativeMode" value="None"/>
-	<property name="HoldType" value="24"/>
+	<property name="HoldType" value="9"/>
 	<property class="Action0">
 		<property name="Buff" value="bleeding,infection,stunned"/>
 		<property name="Buff_chance" value="0.04,0.04,0.6"/>
@@ -1257,6 +1260,19 @@ Mesh files no longer used:
 		<property name="DamageEntity" value="8"/>
 		<property name="Buff" value="bleeding,infection,stunned"/>
 		<property name="Buff_chance" value="0.02,0.2,0.1"/>
+	</property>
+</item>
+
+<item id="89" name="handZombieBurningCrawler">
+	<property name="Extends" value="handMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="24"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="8"/>
+		<property name="DamageBlock" value="2"/>
+		<property name="Delay" value="2.0"/>
+		<property name="Buff" value="sprainedLeg,infection,burningSmall"/>
+		<property name="Buff_chance" value="0.2,0.025,0.5"/>
 	</property>
 </item>
 
@@ -1338,7 +1354,7 @@ Mesh files no longer used:
 <item id="98" name="handZombieHazMatFeral">
 	<property name="Extends" value="handZombieHazMat"/>
 	<property name="CreativeMode" value="None"/>
-	<property name="HoldType" value="24"/>
+	<property name="HoldType" value="9"/>
 	<property class="Action0">
 		<property name="DamageEntity" value="20"/>
 		<property name="DamageBlock" value="40"/>
@@ -1348,7 +1364,7 @@ Mesh files no longer used:
 <item id="99" name="handZombieWorkerFeral">
 	<property name="Extends" value="handZombieWorker"/>
 	<property name="CreativeMode" value="None"/>
-	<property name="HoldType" value="24"/>
+	<property name="HoldType" value="9"/>
 	<property class="Action0">
 		<property name="DamageEntity" value="20"/>
 		<property name="DamageBlock" value="300"/>
@@ -1358,7 +1374,7 @@ Mesh files no longer used:
 <item id="100" name="handZombieFootballPlayerFeral">
 	<property name="Extends" value="handZombieFootballPlayer"/>
 	<property name="CreativeMode" value="None"/>
-	<property name="HoldType" value="24"/>
+	<property name="HoldType" value="9"/>
 	<property class="Action0">
 		<property name="DamageEntity" value="20"/>
 		<property name="DamageBlock" value="40"/>
@@ -1436,7 +1452,7 @@ Mesh files no longer used:
 		<property name="Sphere" value="0.1"/>
 		<property name="Sound_start" value="swoosh"/>
 		<property name="Stamina_usage" value="3.5"/>
-		<property name="DamageBonus.head" value="7"/>
+		<property name="DamageBonus.head" value="5"/>
 		<property name="DamageBonus.glass" value="0.42"/>
 		<property name="DamageBonus.wood" value="1"/>
 		<property name="DamageBonus.earth" value="0.2083"/>
@@ -1506,7 +1522,7 @@ Mesh files no longer used:
 		<property name="Sound_start" value="swoosh"/>
 		<property name="Stamina_usage" value="8.27"/>
 		<property name="DamageBonus.wood" value="1"/>
-		<property name="DamageBonus.head" value="6"/>
+		<property name="DamageBonus.head" value="2"/>
 		<property name="DamageBonus.glass" value="0.25"/>
 		<property name="DamageBonus.stone" value="0.25"/>
 		<property name="DamageBonus.metal" value="0.25"/>
@@ -1568,7 +1584,7 @@ Mesh files no longer used:
 		<property name="Sound_start" value="swoosh"/>
 		<property name="Stamina_usage" value="7.52"/>
 		<property name="DamageBonus.glass" value="1"/>
-		<property name="DamageBonus.head" value="6"/>
+		<property name="DamageBonus.head" value="2"/>
 		<property name="DamageBonus.wood" value="0.2"/>
 		<property name="DamageBonus.earth" value="0.2"/>
 		<property name="DamageBonus.organic" value="0.2"/>
@@ -1599,7 +1615,7 @@ Mesh files no longer used:
 	<property class="Action0">
 		<property name="Delay" value="1.5"/>
 		<property name="Stamina_usage" value="20.4"/>
-		<property name="DamageBonus.head" value="7"/>
+		<property name="DamageBonus.head" value="4"/>
 		<property name="ToolCategory.harvestingTools" value="1.4" param1="1"/>
 	</property>
 	<property name="Group" value="Tools/Traps"/>
@@ -1850,7 +1866,7 @@ Mesh files no longer used:
 		<property name="Sphere" value="0.1"/>
 		<property name="Sound_start" value="swoosh"/>
 		<property name="Stamina_usage" value="6"/>
-		<property name="DamageBonus.head" value="7"/>
+		<property name="DamageBonus.head" value="4"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.stone" value="1"/>
 		<property name="DamageBonus.metal" value="1"/>
@@ -1969,7 +1985,7 @@ Mesh files no longer used:
 		<property name="Horde_meter_distance" value="20"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
 		<property name="DamageBonus.wood" value="10"/>
-		<property name="DamageBonus.head" value="10"/>
+		<property name="DamageBonus.head" value="5"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="SupportHarvesting" value="true"/>
 		<property name="UseMeleeCrosshair" value="true"/>
@@ -2407,7 +2423,7 @@ Mesh files no longer used:
 		<property name="FlyTime" value="0"/>
 		<property name="Gravity" value="-4.7"/>
 		<property name="LifeTime" value="12"/>
-		<property name="DamageBonus.head" value="12"/>
+		<property name="DamageBonus.head" value="5"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.wood" value="0.1"/>
 		<property name="DamageBonus.earth" value="0"/>
@@ -2530,7 +2546,7 @@ Mesh files no longer used:
 		<property name="FlyTime" value="0"/>
 		<property name="Gravity" value="-4"/>
 		<property name="LifeTime" value="12"/>
-		<property name="DamageBonus.head" value="13"/>
+		<property name="DamageBonus.head" value="5"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.wood" value="0.1"/>
 		<property name="DamageBonus.earth" value="0"/>
@@ -2644,7 +2660,7 @@ Mesh files no longer used:
 	<property name="Material" value="MDynamite"/>
 	<property name="CustomIcon" value="tnt"/>
 	<property name="HoldType" value="25"/>
-	<property name="Stacknumber" value="20"/> <!-- STK explosives -->
+	<property name="Stacknumber" value="40"/> <!-- STK explosives -->
 	<property name="EconomicValue" value="71"/>
 	<property name="Explosion.BlockDamage" value="900"/>
 	<property name="Explosion.EntityDamage" value="320"/>
@@ -8695,7 +8711,6 @@ Mesh files no longer used:
 	<property name="HoldType" value="45"/>
 	<property name="Material" value="clay"/>
 	<property name="Weight" value="15"/>
-	<property name="Stacknumber" value="250"/> <!-- STK resource -->
 	<property name="EconomicValue" value="30"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="Group" value="Resources"/>
@@ -9456,7 +9471,7 @@ Mesh files no longer used:
 
 <item id="1464" name="unit_stone">
 	<property name="Extends" value="unit_iron"/>
-	<property name="CustomIcon" value="cobblestones"/>
+	<property name="CustomIcon" value="rockSmall"/>
 	<property name="Material" value="stone"/>
 	<property name="CreativeMode" value="None" />
 </item>
