@@ -312,7 +312,7 @@
 	</entitygroup>
 
 	<entitygroup name="ZombieDogGroup">
-		<entity name="animalBoar" />
+		<entity name="zombieBusinessMan" />
 	</entitygroup>
 
 	<entitygroup name="WolfGroup">
